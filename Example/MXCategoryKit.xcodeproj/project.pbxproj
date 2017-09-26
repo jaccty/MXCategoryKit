@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		0F3C09295EAFB08764DE6BD0 /* Pods-MXCategoryKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MXCategoryKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MXCategoryKit_Tests/Pods-MXCategoryKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		1D4A557463C2F4E5D91FC854 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1D4A557463C2F4E5D91FC854 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* MXCategoryKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MXCategoryKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,10 +62,10 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		979980886C56FB26290396B0 /* Pods-MXCategoryKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MXCategoryKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MXCategoryKit_Example/Pods-MXCategoryKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9B69D86A4CDB31175C1C2261 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9B69D86A4CDB31175C1C2261 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9DDA301DA04DD298ED3A38A8 /* Pods_MXCategoryKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MXCategoryKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8661BA0A63935252882AB4B /* Pods_MXCategoryKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MXCategoryKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC4D3BE42F436D074ABD84E5 /* MXCategoryKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MXCategoryKit.podspec; path = ../MXCategoryKit.podspec; sourceTree = "<group>"; };
+		AC4D3BE42F436D074ABD84E5 /* MXCategoryKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MXCategoryKit.podspec; path = ../MXCategoryKit.podspec; sourceTree = "<group>"; };
 		DCF60B4EB5737BF14569BCE1 /* Pods-MXCategoryKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MXCategoryKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MXCategoryKit_Tests/Pods-MXCategoryKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -250,6 +250,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "848941531@qq.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = UX9TLJR8T2;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -533,6 +536,7 @@
 			baseConfigurationReference = 979980886C56FB26290396B0 /* Pods-MXCategoryKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UX9TLJR8T2;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MXCategoryKit/MXCategoryKit-Prefix.pch";
 				INFOPLIST_FILE = "MXCategoryKit/MXCategoryKit-Info.plist";
@@ -548,6 +552,7 @@
 			baseConfigurationReference = 6EF44E7E7575F68AE485D4CB /* Pods-MXCategoryKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UX9TLJR8T2;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MXCategoryKit/MXCategoryKit-Prefix.pch";
 				INFOPLIST_FILE = "MXCategoryKit/MXCategoryKit-Info.plist";
