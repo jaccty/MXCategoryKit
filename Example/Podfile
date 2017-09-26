@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MXCategoryKit_Example' do
+  pod 'MXCategoryKit', :path => '../'
+
+  target 'MXCategoryKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
